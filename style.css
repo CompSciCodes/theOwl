@@ -1,0 +1,191 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	/*border: solid black;
+	border-width: thick;*/
+	margin-left: 15px;
+	margin-right: 15px;						
+}		
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p {
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+td {	
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1rem;	
+}
+
+th {
+	font-size: 1.5rem;
+}
+
+.uil {
+	margin: auto;
+	width: 100%;	
+}
+
+.mainHeader {
+	color: #4d4d4d;						
+}
+
+.logo {
+	display: block;
+  	margin-left: auto;  			
+  	margin-right: auto;
+  	width: 50%;  		  			  
+}
+
+.code {
+	display: block;
+  	margin-left: auto;  			
+  	margin-right: auto;
+  	width: 80%;
+}
+
+.top {
+	background-color: #ffe066; /* #ffe066 */
+	padding-top: 1rem;
+  	padding-bottom: 1rem;
+  	/*border: solid black;*/
+}
+
+.navBar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.about {
+	border: solid black;
+}
+
+#main {
+	color: white;
+}
+
+#focs {
+	color: #29a329;
+}
+
+#itcs {
+	color: #ffcc00;
+}
+
+#csp {
+	color: #0052cc;
+}
+
+#cs-a {
+	color: #e6005c;
+}
+
+.main {
+	background-color: #b37700;	
+}
+
+.focs {
+	background-color: #29a329;
+}
+
+.itcs {
+	background-color: #ffcc00;
+}
+
+.csp {
+	background-color: #0052cc;
+}
+
+.cs-a {
+	background-color: #e6005c;
+}
+
+.main:hover, .focs:hover, .itcs:hover, .csp:hover, .cs-a:hover {
+  background-color: gray;
+}
+
+a.link:link {
+	text-decoration: none;	
+	color: black;
+}
+
+a.link:visited {
+	color: black;
+}
+
+a.link:hover {
+	color: black;
+}
+
+a.link:active {
+  color: white;
+}
+
+.body {
+	/*border: solid black;*/	
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .25rem;
+	padding-bottom: 1rem;	
+}
+
+.resources {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.extras, .uilData {
+	text-align: center;
+	font-size: 1.5rem
+}
+
+.opps {	
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .25rem;
+	padding-bottom: 1rem;
+}
+
+.divider {
+	text-align: center;
+}
+
+.oppsHeader {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.downArrow {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
+}
+
+.owl {
+	display: block;
+  	margin-left: auto;  			
+  	margin-right: auto;
+  	width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
