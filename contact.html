@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The OWL</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<style>	
+		.main {
+			background-color: black;
+		}
+
+		.form {
+			background-color: #f2f2f2;
+		}
+
+		.opps {
+			background-color: #fff7e6;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="top" id="top">
+		<img src="images/theOwl.PNG" class="logo">		
+	</div> <!-- end div.top | end div#top -->
+		
+	<table class="navBar">		
+		<tr>
+			<td class="main"><h2><a href="index.html" id="main" class="link">Main Page</a></h2></td>
+			<td class="focs"><h2><a href="focs.html" class="link">Web Design</a></h2></td>			
+			<td class="itcs"><h2><a href="itcs.html" class="link">Beginner Programming</a></h2></td>
+			<td class="csp"><h2><a href="csp.html" class="link">CompSci Principles</a></h2></td>
+			<td class="cs-a"><h2><a href="cs-a.html" class="link">Advanced Programming</a></h2></td>
+		</tr>		
+	</table> <!-- end table.navBar -->
+	<hr>
+	
+	<div class="form">
+
+		<br>
+
+		<h3>Please complete the form below for questions | comments | suggestions. Thank you.</h3>
+		
+		<img src="images/downArrow.png" class="downArrow">
+
+		<hr>
+
+		
+		<form method="post" name="myemailform" action="https://formspree.io/xrgkkjwe">
+			<h2>PERSONAL INFORMATION</h2>
+
+			<label for="name">FIRST/LAST NAME:</label>
+  			<input type="text" id="name" name="name" size="20">  			
+
+  			<label for="email">~ E-MAIL ADDRESS:</label>
+  			<input type="text" id="email" class="email" name="email" size="40" ><br>
+
+  			<br>
+
+  			<h2>YOUR MESSAGE</h2>
+
+  			<label for="today">TODAY'S DATE:</label>
+			<input type="date" id="today" name="today" min="2020-01-01" max="2025-12-31">
+			
+			<br><br>
+
+			<input type="checkbox" id="question" class="checkbox" name="question">
+			<label for="question">I have a question. ~</label>
+			<input type="checkbox" id="comment" class="checkbox" name="comment">
+			<label for="comment">I have a comment. ~</label>
+			<input type="checkbox" id="suggestion" class="checkbox" name="suggestion">
+			<label for="suggestion">I have a suggestion. ~</label>
+			<input type="checkbox" id="issue" class="checkbox" name="issue">
+			<label for="issue">The website is broken.</label> 
+
+			<br><br>
+
+  			<label for="message">QUESTIONS | COMMENTS | SUGGESTIONS | WEBSITE ISSUES</label><br>
+  			<textarea id="message" name="message" rows="10" cols="50"></textarea>
+
+  			<br>
+
+  			<input type="submit" value="SUBMIT" target="_blank" /> 
+
+		</form>	
+
+		<br>	
+
+		<h4>Thank you for letting us serve you. Please be patient as we address your concerns.</h4>
+
+	</div> <!-- end div.formHeading -->
+	
+	
+	
+	<hr>		
+	<img src="images/dancingOwl.gif" class="owl"> <!-- end img.owl -->
+	<center><h3><a href="#top">Return to the top of the page.</a></h3></center>
+	<br>
+</body>
+
+</html>
