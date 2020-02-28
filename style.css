@@ -157,8 +157,13 @@ textarea {
 	width: 1.5rem;
 }
 
-.email {
+.info {
 	color: blue;
+	text-align: center;
+}
+
+#today {
+	text-align: center;
 }
 
 .resources {

@@ -50,38 +50,23 @@
 		<form method="post" name="myemailform" action="https://formspree.io/xrgkkjwe">
 			<h2>PERSONAL INFORMATION</h2>
 
-			<label for="name">FIRST/LAST NAME:</label>
-  			<input type="text" id="name" name="name" size="20">  			
+			<label for="name">FIRST/LAST NAME</label><br>
+  			<input type="text" id="name" class="info" name="name" size="20"><br><br>  			
 
-  			<label for="email">~ E-MAIL ADDRESS:</label>
-  			<input type="text" id="email" class="email" name="email" size="40" ><br>
-
-  			<br>
+  			<label for="email">E-MAIL ADDRESS</label><br>
+  			<input type="text" id="email" class="info" name="email" size="40" ><br><br><br>
+  			
 
   			<h2>YOUR MESSAGE</h2>
 
-  			<label for="today">TODAY'S DATE:</label>
-			<input type="date" id="today" name="today" min="2020-01-01" max="2025-12-31">
-			
-			<br><br>
+  			<label for="today">TODAY'S DATE:</label><br>
+			<input type="date" id="today" name="today" min="2020-01-01" max="2025-12-31"><br><br>
+						
 
-			<input type="checkbox" id="question" class="checkbox" name="question">
-			<label for="question">I have a question. ~</label>
-			<input type="checkbox" id="comment" class="checkbox" name="comment">
-			<label for="comment">I have a comment. ~</label>
-			<input type="checkbox" id="suggestion" class="checkbox" name="suggestion">
-			<label for="suggestion">I have a suggestion. ~</label>
-			<input type="checkbox" id="issue" class="checkbox" name="issue">
-			<label for="issue">The website is broken.</label> 
+  			<label for="message">QUESTIONS | COMMENTS | SUGGESTIONS</label><br>
+  			<textarea id="message" name="message" rows="10" cols="50"></textarea><br><br>  			
 
-			<br><br>
-
-  			<label for="message">QUESTIONS | COMMENTS | SUGGESTIONS | WEBSITE ISSUES</label><br>
-  			<textarea id="message" name="message" rows="10" cols="50"></textarea>
-
-  			<br>
-
-  			<input type="submit" value="SUBMIT" target="_blank" /> 
+  			<input type="submit" value="SUBMIT" /> 
 
 		</form>	
 
