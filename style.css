@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	/*border: solid black;
@@ -46,6 +50,13 @@ th {
   	margin-left: auto;  			
   	margin-right: auto;
   	width: 80%;
+}
+
+.console {
+	display: block;
+  	margin-left: auto;  			
+  	margin-right: auto;
+  	width: 95%;
 }
 
 .top {
