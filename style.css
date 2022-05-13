@@ -81,19 +81,19 @@ th {
 }
 
 #focs {
-	color: #29a329;
+	color: #0ac00c;
 }
 
 #itcs {
-	color: #e6b800;
+	color: #7fd4d6;
 }
 
 #csp {
-	color: #0052cc;
+	color: #b82558;
 }
 
 #cs-a {
-	color: #e6005c;
+	color: #0059ff;
 }
 
 .main {
@@ -101,19 +101,19 @@ th {
 }
 
 .focs {
-	background-color: #29a329;
+	background-color: #0ac00c;
 }
 
 .itcs {
-	background-color: #e6b800;
+	background-color: #7fd4d6;
 }
 
 .csp {
-	background-color: #0052cc;
+	background-color: #b82558;
 }
 
 .cs-a {
-	background-color: #e6005c;
+	background-color: #0059ff;
 }
 
 .main:hover, .focs:hover, .itcs:hover, .csp:hover, .cs-a:hover {
